@@ -1,3 +1,5 @@
-function generateJoke() {
-  return "What did the grape say when it was stepped on? Nothing, it just let out a little wine.";
+function generateDadJoke() {
+  return "I don't trust stairs. They're always up to something.";
 }
+
+export default generateDadJoke;

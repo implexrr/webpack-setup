@@ -4,10 +4,7 @@
   "description": "Starter code for webpack projects I feel like building",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "nodemon": "nodemon",
-    "server": "live-server"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

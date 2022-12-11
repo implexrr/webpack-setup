@@ -1,3 +1,3 @@
-import generateJoke from "./generateDadJoke";
+import generateDadJoke from './generateDadJoke';
 
-console.log(generateJoke());
+console.log(generateDadJoke());
