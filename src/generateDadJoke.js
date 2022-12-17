@@ -1,5 +1,15 @@
+import axios from "axios";
+
 function generateDadJoke() {
-  return "I don't trust stairs. They're always up to something.";
+  const config = {
+    headers: {
+      Accept: "application/json"
+    }
+  }
+
+  axios.get("https://icanhazdadjoke.com", config).then(res => {
+    document.querySelector("#joke").textContent = res.data.joke;
+  })
 }
 
 export default generateDadJoke;
