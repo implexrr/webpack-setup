@@ -2,6 +2,7 @@
   "name": "webpack-setup",
   "version": "1.0.0",
   "description": "Starter code for webpack projects I feel like building",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "build": "webpack",
